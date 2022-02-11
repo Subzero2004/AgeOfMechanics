@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "ageofmechancis:item/steel_pickaxe"
+    "layer0": "ageofmechanics:item/steel_pickaxe"
   }
 }
