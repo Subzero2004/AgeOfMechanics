@@ -12,9 +12,13 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
     public static final Item STEEL_SWORD = registerItem("steel_sword",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ItemGroup.MISC).maxCount(1).maxDamage(8))
+    );
 
     public static final Item STEEL_PICKAXE = registerItem( "steel_pickaxe",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+
+    public static final Item STEEL_AXE = registerItem("steel_axe",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
     public static Item registerItem(String name, Item item){

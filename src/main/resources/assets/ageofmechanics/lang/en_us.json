@@ -1,5 +1,11 @@
 {
   "item.ageofmechanics.steel_ingot": "Steel Ingot",
   "item.ageofmechanics.steel_sword": "Steel Sword",
-  "item.ageofmechanics.steel_pickaxe": "Steel Pickaxe"
+  "item.ageofmechanics.steel_pickaxe": "Steel Pickaxe",
+
+
+
+
+  "block.ageofmechanics.steel_block": "steel block",
+  "block.ageofmechanics.steel_ore": "steel ore"
 }
