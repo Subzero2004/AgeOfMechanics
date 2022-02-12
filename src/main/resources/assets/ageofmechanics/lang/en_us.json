@@ -7,5 +7,8 @@
 
 
   "block.ageofmechanics.steel_block": "steel block",
-  "block.ageofmechanics.steel_ore": "steel ore"
+  "block.ageofmechanics.steel_ore": "steel ore",
+
+  "ItemGroup.ageofmechanics.steel": "Steel"
+
 }
