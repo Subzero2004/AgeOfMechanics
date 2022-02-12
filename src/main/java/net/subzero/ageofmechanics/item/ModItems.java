@@ -21,6 +21,10 @@ public class ModItems {
     public static final Item STEEL_AXE = registerItem("steel_axe",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
+    public static final Item RAW_STEEL = registerItem("raw_steel",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+
+
     public static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(AgeOfMechanics.MOD_ID, name), item);
     }
