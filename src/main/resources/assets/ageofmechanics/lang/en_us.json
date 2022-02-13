@@ -2,9 +2,11 @@
   "item.ageofmechanics.steel_ingot": "Steel Ingot",
   "item.ageofmechanics.steel_sword": "Steel Sword",
   "item.ageofmechanics.steel_pickaxe": "Steel Pickaxe",
-
-
-
+  "item.ageofmechanics.raw_steel": "Raw Steel",
+  "item.ageofmechanics.steel_shovel": "Steel Shovel",
+  "item.ageofmechanics.steel_hoe": "Steel Hoe",
+  "item.ageofmechanics.steel_nugget": "Steel Nugget",
+  "item.ageofmechanics.steel_axe": "Steel Axe",
 
   "block.ageofmechanics.steel_block": "steel block",
   "block.ageofmechanics.steel_ore": "steel ore",
