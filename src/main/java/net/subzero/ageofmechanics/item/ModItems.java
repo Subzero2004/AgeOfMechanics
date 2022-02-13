@@ -5,7 +5,7 @@ import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.subzero.ageofmechanics.AgeOfMechanics;
-import net.subzero.ageofmechanics.item.ModItems;
+import net.subzero.ageofmechanics.item.ModItemGroup;
 
 public class ModItems {
     public static final Item STEEL_INGOT = registerItem("steel_ingot",
