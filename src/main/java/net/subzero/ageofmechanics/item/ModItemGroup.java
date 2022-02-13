@@ -7,6 +7,6 @@ import net.minecraft.util.Identifier;
 import net.subzero.ageofmechanics.AgeOfMechanics;
 
 public class ModItemGroup {
-    public static final ItemGroup STEEL = FabricItemGroupBuilder.build(new Identifier(AgeOfMechanics.MOD_ID, "steel"),
-            () -> new ItemStack(ModItems.STEEL_INGOT));
+    public static final ItemGroup STEEL = FabricItemGroupBuilder.build(new Identifier(AgeOfMechanics.MOD_ID,
+            "steel"), () -> new ItemStack(ModItems.STEEL_INGOT));
 }

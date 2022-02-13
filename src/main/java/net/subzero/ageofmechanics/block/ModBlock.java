@@ -10,14 +10,15 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.subzero.ageofmechanics.AgeOfMechanics;
+import net.subzero.ageofmechanics.item.ModItemGroup;
 
 public class ModBlock {
 
     public static final Block STEEL_BLOCK = registerBlock("steel_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ItemGroup.MISC);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.STEEL);
 
     public static final Block STEEL_ORE = registerBlock("steel_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ItemGroup.MISC);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.STEEL);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
